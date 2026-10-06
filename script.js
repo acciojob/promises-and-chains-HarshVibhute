@@ -6,7 +6,6 @@ let form = document.getElementById("form");
 
             event.preventDefault();
 
-            // Check for empty inputs
             if (age.value === "" || name.value === "") {
                 alert("Please enter valid details.");
                 return;
